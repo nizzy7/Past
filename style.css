@@ -1,0 +1,57 @@
+header{
+    background-color: #4c05be;
+    text-align: center;
+    }
+    img{
+    width: 200px; /* width do elemento */
+    height: 200px; /* height do elemento */
+    object-fit: cover;
+    object-position: center; /* teste 20% 10% */
+    border: 5px solid #6e31d0;
+    border-radius: 30%;
+    }
+    
+    nav{
+    background-color: #2e0178;
+    display: inline-flex;
+    width: 20%;
+    }
+    nav li{
+    display: flex;
+    }
+    
+    nav li a{
+    color:white;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    }
+    nav li a:hover{
+    background-color: #412075;
+    }
+    
+    
+    main{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column; /* Organiza os itens em coluna */
+    position: absolute;
+    width: 70%; /* Adicionar um pouco de espaço para evitar que o conteúdo toque o footer */
+    
+    
+    /*object-position: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: altura do contêiner;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    justify-content: center;
+    
+    */
+    }
+    
+    img{
+    width: 150px;
+    }
+    
